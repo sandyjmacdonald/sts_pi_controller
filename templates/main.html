@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>STS-PI CONTROLLER</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/skeleton.css') }}">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-third column" style="margin-top: 10%">
+        <a class="button button-primary u-full-width" href="/left">Left</a>
+      </div>
+      <div class="one-third column" style="margin-top: 10%">
+        <a class="button button-primary u-full-width" href="/forward">Forward</a>
+      </div>
+      <div class="one-third column" style="margin-top: 10%">
+        <a class="button button-primary u-full-width" href="/right">Right</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-third column" style="margin-top: 10%">
+        <a class="button button-primary u-full-width" href="/clockwise">Clockwise</a>
+      </div>
+      <div class="one-third column" style="margin-top: 10%">
+        <a class="button button-primary u-full-width" href="/back">Back</a>
+      </div>
+      <div class="one-third column" style="margin-top: 10%">
+        <a class="button button-primary u-full-width" href="/anti-clockwise">Anti-clockwise</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-third column" style="margin-top: 10%">
+      </div>
+      <div class="one-third column" style="margin-top: 10%">
+        <a class="button button-primary u-full-width" href="/stop">Stop</a>
+      </div>
+      <div class="one-third column" style="margin-top: 10%">
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
