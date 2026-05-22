@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **This repository has moved to Codeberg.**
+>
+> Active development now happens at **[https://codeberg.org/sandyjmacdonald/sts_pi_controller](https://codeberg.org/sandyjmacdonald/sts_pi_controller)**.
+>
+> This GitHub copy is archived and read-only. Please file issues, open pull requests, and follow the project on Codeberg.
+
+---
+
 # STS-Pi controller
 
 A super simple web app controller for the Pimoroni STS-Pi robot, using Flask and Skeleton.
